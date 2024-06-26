@@ -26,6 +26,7 @@ body {
   font-family: Arial, sans-serif;
   max-width: 400px;
   width: 100%;
+  position: relative;
 }
 
 .header {
@@ -40,7 +41,6 @@ body {
   font-size: 29px;
   font-weight: 100;
   margin-bottom: 40px;
-  white-space: wrap;
 
 }
 
@@ -74,12 +74,10 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  /* margin: 0 auto; */
   cursor: pointer;
   position: absolute;
-  bottom: 30%;
-  margin-left: 172px;
-  box-shadow: 0px 0px 10px rgba(0, 255, 175, 0.5);
+  bottom: -25px;
+  left: 44%;
 }
 
 .dice-button:hover {
@@ -87,25 +85,10 @@ body {
 }
 
 @media (max-width: 600px) {
-  body {
-    background-color: #0d1724;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
 
   .activecard {
-    background-color: #1e2a38;
     padding: 30px;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-family: Arial, sans-serif;
-    max-width: 260px;
-    width: 100%;
+    max-width: 300px;
   }
 
   .header {
@@ -116,7 +99,6 @@ body {
   .main_content {
     font-size: 24px;
     margin-bottom: 20px;
-    white-space: wrap;
 
   }
 
@@ -138,15 +120,11 @@ body {
   .dice-button {
     width: 40px;
     height: 40px;
-    margin-top: 20px;
-    bottom: 30%;
-    margin-left: 33%;
-    position: absolute;
-    padding: 10px;
-    transform: translateX(-50%);
-    box-shadow: 0px 0px 8px rgba(0, 255, 175, 0.5);
-
+    bottom: -25px;
+    left: 38.5%;
   }
+
+  
 
   .dice-button:hover {
     box-shadow: 0px 0px 20px rgba(0, 255, 175, 0.5);
