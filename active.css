@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+root{
+  ---Dark-Blue: hsl(218, 23%, 16%);
+  ---Grayish-Blue: hsl(217, 19%, 38%);
+  ---Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  ---Neonn-Green: hsl(150, 100%, 66%);
+}
+
+body {
+  background-color: #0d1724;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.activecard {
+  background-color: #1e2a38;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  width: 100%;
+}
+
+.header {
+  font-size: 14px;
+  color: #00ffaf;
+  margin-bottom: 20px;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+}
+
+.main_content {
+  font-size: 29px;
+  font-weight: 100;
+  margin-bottom: 40px;
+  white-space: wrap;
+
+}
+
+.mid-container {
+  justify-content: center;
+}
+
+.divider-card {
+  width: 100%;
+  height: 0px;
+  background-color: #2a3b4e;
+  margin-bottom: 40px;
+  justify-content: center;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
+.divide-img-desktop{
+  margin-left: -22px;
+}
+
+ .divide-img-mobile{
+  display: none;
+ }
+
+.dice-button {
+  background-color: #00ffaf;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  /* margin: 0 auto; */
+  cursor: pointer;
+  position: absolute;
+  bottom: 30%;
+  margin-left: 172px;
+  box-shadow: 0px 0px 10px rgba(0, 255, 175, 0.5);
+}
+
+.dice-button:hover {
+  box-shadow: 0px 0px 20px rgba(0, 255, 175, 0.5);
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: #0d1724;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .activecard {
+    background-color: #1e2a38;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    max-width: 260px;
+    width: 100%;
+  }
+
+  .header {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .main_content {
+    font-size: 24px;
+    margin-bottom: 20px;
+    white-space: wrap;
+
+  }
+
+  .divider-card {
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+  }
+  .divide-img-desktop{
+    display: none;
+  }
+
+  .divide-img-mobile{
+    display: flex;
+    margin-left: -15px;
+  }
+
+  .dice-button {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    bottom: 37%;
+    margin-left: 30%;
+    position: absolute;
+    padding: 10px;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 8px rgba(0, 255, 175, 0.5);
+
+  }
+
+  .dice-button:hover {
+    box-shadow: 0px 0px 20px rgba(0, 255, 175, 0.5);
+  }
+
+
+}
